@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Anton Regular'), local('Anton-Regular'), url(https://fonts.gstatic.com/s/anton/v11/1Ptgg87LROyAm3Kz-Co.ttf) format('truetype');
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  background-color: #0D0D0D;
+}
+body .container {
+  margin: 0 13.2%;
+  z-index: 10005;
+}
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  line-height: 3.5em;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  background-color: #161616;
+  width: 15.1%;
+  height: 100vh;
+  z-index: 10000;
+  position: fixed;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.05em;
+}
+#sidebar .inner .title h1 {
+  color: #0E7AEE;
+}
+#sidebar .inner .title h2 {
+  color: #909090;
+}
+#sidebar .inner nav ul li a {
+  color: #D6D6D6;
+  text-decoration: none;
+}
+.wrapper {
+  background-attachment: fixed;
+  background-color: #5e42a6;
+  background-image: url(https://images.unsplash.com/photo-1575813324951-da27fcbf9038?ixlib=rb-1.2.1);
+  background-position-x: 100%;
+  background-position-y: 0%;
+  border-image-repeat: stretch;
+  display: flex;
+  flex-direction: column;
+  min-height: 4020px;
+}
+.wrapper .mainGallery {
+  width: 79%;
+  margin-left: 21%;
+  outline: ;
+}
+.wrapper .mainGallery .parent {
+  display: grid;
+  grid-template-columns: 1.21fr 0.501fr 1.041fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  outline: ;
+  width: 100%;
+}
+.wrapper .mainGallery .parent .div1 {
+  grid-area: 0.25;
+}
+.wrapper .mainGallery .parent .div2 {
+  grid-area: 0.08333333;
+}
+.wrapper .mainGallery .parent .div3 {
+  grid-area: 0.04166667;
+}
+.wrapper .mainGallery .parent .div4 {
+  grid-area: 0.33333333;
+}
+.wrapper .mainGallery .parent .div5 {
+  grid-area: 0.11111111;
+}
+.wrapper .mainGallery .parent .div6 {
+  grid-area: 0.05555556;
+}
+.wrapper .mainGallery .parent .div7 {
+  grid-area: 0.375;
+}
+.wrapper .mainGallery .parent .div8 {
+  grid-area: 0.125;
+}
+.wrapper .mainGallery .parent .div9 {
+  grid-area: 0.0625;
+}
+.wrapper .mainGallery .parent .div10 {
+  grid-area: 0.4;
+}
+.wrapper .mainGallery .parent .div11 {
+  grid-area: 0.13333333;
+}
+.wrapper .mainGallery .parent .div12 {
+  grid-area: 0.06666667;
+}
+.wrapper .mainGallery .parent img {
+  width: 100%;
+}
